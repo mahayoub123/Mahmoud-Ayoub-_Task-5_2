@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task_5_2</title>
+    <link rel="stylesheet" href="./assets/style/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="titleStyle">Length Converter</h1>
+      <input
+        type="text"
+        placeholder="Enter The Value"
+        id="input"
+        class="inputStyle"
+      />
+
+      <div class="selectStyle">
+        <span>From:</span>
+        <select id="InputType">
+          <option value="meter">Meter</option>
+          <option value="kilometer">Kilo meter</option>
+          <option value="centemeter">Centemeter</option>
+        </select>
+        <span>To:</span>
+
+        <select id="ResultType">
+          <option value="meter">Meter</option>
+          <option value="kilometer">Kilo meter</option>
+          <option value="centemeter">Centemeter</option>
+        </select>
+      </div>
+
+      <div type="text" placeholder="The Result" class="resultStyle">
+        <button type="submit" class="Convert">Convert</button>
+        <p>The Resukt is: <span id="result" class="result"></span></p>
+      </div>
+    </div>
+    <script src="./assets/script/script.js"></script>
+  </body>
+</html>

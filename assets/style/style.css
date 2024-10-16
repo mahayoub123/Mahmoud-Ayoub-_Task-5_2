@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 252px;
+    height: 240px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    background: transparent;
+    border: 2px solid black;
+    border-radius: 22px;
+    transform: translate(171%, 70%);
+
+}
+.titleStyle{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.selectStyle{
+    display: flex;
+    margin-top: 10px;
+}
+
+.inputStyle{
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.resultStyle{
+    margin-left: 15px;
+    margin-top: 10px;
+    text-align: center;
+
+}
+
+#InputType,#ResultType{
+    color: orangered
+
+}
+button{
+    width: 95px;
+    height: 37px;
+    border: 2px solid black;
+    color: gold;
+    border-radius: 20px;
+    background: transparent;
+    background-color: palevioletred;
+    font-size: 22px;
+    cursor: pointer;
+    margin-top: 20px;
+}
